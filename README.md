@@ -5,7 +5,7 @@
 * [Yolo v3 official paper](https://arxiv.org/abs/1804.02767)
 * [A Tensorflow Slim implementation](https://github.com/mystic123/tensorflow-yolo-v3)
 
-# NextGenShifters
+
 # NextGenShifters - The New Way of Moving
 
 # Problem Statement: # 
