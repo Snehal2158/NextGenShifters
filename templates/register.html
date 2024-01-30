@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Register</title>
+    <link rel="stylesheet" href="{{ url_for('static',filename='css/login.css') }}" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="wrapper">
+      <h1>Sign up</h1>
+      <form  methods='POST' action='/register'>
+        <input type="text" placeholder="Username" name="username" id="">
+        <input type="text" placeholder="Password" name="password">
+        <input type="submit" placeholder="submit" class="btn">
+      </form>
+      <!-- <button >
+        Sign Up
+      </button> -->
+      <div class="member">
+        Already a member? <a href="{{ url_for('login')}}">Login In</a>
+      </div>
+    </div>
+  </body>
+</html>
